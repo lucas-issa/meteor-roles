@@ -1,7 +1,7 @@
 meteor-roles
 ============
 
-Authorization package for Meteor - compatible with built-in accounts package.
+Authorization package (version 2) for Meteor (clone of alanning/meteor-roles) - compatible with built-in accounts package.
 
 <br />
 
@@ -148,7 +148,7 @@ if (Roles.userIsInRole(joesUserId, ['manage-team', 'super-admin'], 'real-madrid.
 
 3. Add this package to your project.  From a command prompt:
     ```bash
-    meteor add alanning:roles
+    meteor add lucasissa:meteor-roles
     ```
 
 4. Run your application:
